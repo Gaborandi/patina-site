@@ -1,74 +1,253 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PATINA - Paint Time. Solve Worlds.</title>
-<meta name="description" content="PATINA is a quiet tap-to-age restoration puzzle game for mobile.">
-<style>
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    min-height: 100vh;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: #100d09;
-    color: #efe5cf;
-    line-height: 1.6;
-  }
-  main { max-width: 840px; margin: 0 auto; padding: 72px 22px 48px; }
-  h1 {
-    margin: 0;
-    font-family: Georgia, serif;
-    font-size: clamp(42px, 12vw, 88px);
-    letter-spacing: 0;
-    color: #f3dfaa;
-  }
-  .tagline { margin: 8px 0 28px; color: #c7ae76; font-size: 18px; }
-  .lead { max-width: 620px; font-size: 20px; color: #e6d7b9; }
-  .links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
-  a.button {
-    display: inline-flex;
-    align-items: center;
-    min-height: 44px;
-    padding: 10px 18px;
-    border: 1px solid #9b7a36;
-    border-radius: 8px;
-    color: #f3dfaa;
-    text-decoration: none;
-    background: rgba(184, 148, 62, 0.12);
-  }
-  section { margin-top: 64px; border-top: 1px solid rgba(184, 148, 62, 0.35); padding-top: 28px; }
-  h2 { margin: 0 0 12px; color: #f3dfaa; font-size: 22px; }
-  ul { padding-left: 20px; color: #d9c69f; }
-  footer { margin-top: 64px; color: #9d8a68; font-size: 14px; }
-  footer a { color: #c7ae76; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071d1a">
+  <meta name="description" content="PATINA is a quiet tap-to-age restoration puzzle game for mobile. Paint time, chain transformations, restore worlds, and review privacy, consent, purchases, and support information.">
+  <meta property="og:title" content="PATINA">
+  <meta property="og:description" content="Paint time, chain transformations, and restore forgotten scenes.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/patina-worlds-strip.png">
+  <title>PATINA - Paint Time. Solve Worlds.</title>
+  <link rel="icon" href="assets/patina-icon.png">
+  <link rel="stylesheet" href="assets/site.css">
 </head>
-<body>
-<main>
-  <h1>PATINA</h1>
-  <p class="tagline">Paint Time. Solve Worlds.</p>
-  <p class="lead">Tap objects to age them through time, chain transformations, and restore forgotten gardens, ruins, and living scenes.</p>
-  <div class="links">
-    <a class="button" href="privacy/">Privacy Policy</a>
-    <a class="button" href="terms/">Terms of Service</a>
-    <a class="button" href="support/">Support</a>
-  </div>
+<body class="home-page" data-title-key="home.title">
+  <a class="skip-link" href="#main" data-i18n="common.skip">Skip to content</a>
 
-  <section>
-    <h2>About</h2>
-    <ul>
-      <li>Single-player mobile puzzle game.</li>
-      <li>No account required.</li>
-      <li>Progress is stored locally on your device.</li>
-      <li>Optional rewarded ads and in-app purchases may be offered.</li>
-    </ul>
-  </section>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="PATINA home">
+      <img src="assets/patina-icon.png" alt="" width="38" height="38">
+      <span>PATINA</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#game" data-i18n="common.game">Game</a>
+      <a href="#worlds" data-i18n="common.worlds">Worlds</a>
+      <a href="#premium" data-i18n="common.premium">Premium</a>
+      <a href="privacy/" data-i18n="common.privacy">Privacy</a>
+      <a href="support/" data-i18n="common.support">Support</a>
+    </nav>
+    <label class="language-control">
+      <span data-i18n="common.language">Language</span>
+      <select data-language-select aria-label="Language">
+        <option value="en">English</option>
+        <option value="ar">العربية</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+        <option value="pt">Português</option>
+        <option value="it">Italiano</option>
+        <option value="ja">日本語</option>
+        <option value="ko">한국어</option>
+        <option value="zh">简体中文</option>
+      </select>
+    </label>
+  </header>
 
-  <footer>
-    <p><a href="privacy/">Privacy Policy</a> | <a href="terms/">Terms of Service</a> | <a href="support/">Support</a></p>
-    <p>&copy; 2026 PATINA. All rights reserved.</p>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="home.eyebrow">Time-painting puzzle game</p>
+          <h1 id="hero-title">PATINA</h1>
+          <p class="tagline" data-i18n="home.tagline">Paint Time. Solve Worlds.</p>
+          <p class="lede" data-i18n="home.heroText">Tap objects to age them through time, chain transformations, and restore forgotten gardens, ruins, and living scenes.</p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#game" data-i18n="home.playCta">See the game</a>
+            <a class="button secondary" href="privacy/" data-i18n="home.privacyCta">Privacy and consent</a>
+          </div>
+          <dl class="trust-strip" aria-label="Release profile">
+            <div>
+              <dt data-i18n="home.promiseOneTitle">Player choice</dt>
+              <dd data-i18n="home.promiseOneText">Consent before ads</dd>
+            </div>
+            <div>
+              <dt data-i18n="home.promiseTwoTitle">Quiet monetization</dt>
+              <dd data-i18n="home.promiseTwoText">Optional rewards, gentle breaks</dd>
+            </div>
+            <div>
+              <dt data-i18n="home.promiseThreeTitle">Clear support</dt>
+              <dd data-i18n="home.promiseThreeText">Privacy, restore, and deletion help</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-stage" aria-label="PATINA gameplay preview">
+          <div class="phone-stack">
+            <figure class="phone-frame phone-main">
+              <img src="assets/patina-screen-game.png" alt="PATINA puzzle board showing seed, water, rain, and tree transformations.">
+            </figure>
+            <figure class="phone-frame phone-menu">
+              <img src="assets/patina-screen-menu.png" alt="PATINA world selection with Garden, Temple, Workshop, and Reef.">
+            </figure>
+            <figure class="phone-frame phone-garden">
+              <img src="assets/patina-screen-garden.png" alt="Restored Ancient Garden with Golden Conservatory theme equipped.">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="game" class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="home.gameEyebrow">The game</p>
+        <h2 data-i18n="home.gameTitle">A cozy puzzle built around one clear action.</h2>
+        <p class="section-intro">PATINA’s hook is time-painting: every tap moves a material forward in time, and the best moves turn the whole board into a living cascade.</p>
+      </div>
+
+      <div class="mechanic-grid">
+        <article class="mechanic-card age-card">
+          <img class="mechanic-art" src="assets/patina-mechanic-age.png" alt="" aria-hidden="true">
+          <h3>Tap to age</h3>
+          <p>Seed becomes sprout, tree, old tree, fallen log, and soil. Water becomes ice, mist, cloud, rain, then returns to water.</p>
+        </article>
+        <article class="mechanic-card cascade-card">
+          <img class="mechanic-art" src="assets/patina-mechanic-cascade.png" alt="" aria-hidden="true">
+          <h3>Chain transformations</h3>
+          <p>Water wakes seeds, mist rusts metal, carved stone joins into temple walls, and restored cells unlock scenery.</p>
+        </article>
+        <article class="mechanic-card restore-card">
+          <img class="mechanic-art" src="assets/patina-mechanic-restore.png" alt="" aria-hidden="true">
+          <h3>Restore the scene</h3>
+          <p>Each puzzle feeds a visible restoration: gardens fill, ruins rebuild, workshops return, and reefs regain color.</p>
+        </article>
+      </div>
+
+      <div class="showcase-row">
+        <figure class="showcase-phone phone-frame">
+          <img src="assets/patina-screen-game.png" alt="Gameplay screen with a cascade puzzle board.">
+        </figure>
+        <div class="showcase-copy">
+          <p class="eyebrow">Designed for mobile</p>
+          <h2>One-handed play, readable boards, and visual rewards after every solved puzzle.</h2>
+          <ul class="check-list">
+            <li>Portrait-first layout for iPhone and iPad screens.</li>
+            <li>Safe-area aware UI so notches, home indicators, and tablet aspect ratios do not hide controls.</li>
+            <li>Rewarded ads stay optional and outside active puzzle play.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="worlds" class="section-block worlds-section">
+      <div class="section-heading">
+        <p class="eyebrow">Restoration worlds</p>
+        <h2>Every theme reflects a different kind of time.</h2>
+        <p class="section-intro">The site now uses PATINA’s actual game backgrounds so the identity is garden, stone, metal, and reef rather than a generic policy page.</p>
+      </div>
+
+      <img class="world-strip" src="assets/patina-worlds-strip.png" alt="PATINA world cards for Ancient Garden, Temple Ruins, Iron Workshop, and Coral Reef.">
+
+      <div class="world-grid">
+        <article class="world-card world-garden">
+          <span>World 1</span>
+          <h3>Ancient Garden</h3>
+          <p>Seeds, water, soil, trees, and quiet restoration.</p>
+        </article>
+        <article class="world-card world-temple">
+          <span>World 2</span>
+          <h3>Temple Ruins</h3>
+          <p>Stone, carved pillars, rubble, and rebuilt walls.</p>
+        </article>
+        <article class="world-card world-workshop">
+          <span>World 3</span>
+          <h3>Iron Workshop</h3>
+          <p>Metal, tools, rust, corrosion, and workshop revival.</p>
+        </article>
+        <article class="world-card world-reef">
+          <span>World 4</span>
+          <h3>Coral Reef</h3>
+          <p>Kelp, coral, pearls, driftwood, and living color.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="restoration" class="section-block restoration-section">
+      <div class="restoration-layout">
+        <figure class="phone-frame restoration-phone">
+          <img src="assets/patina-screen-garden.png" alt="Ancient Garden restoration screen with premium theme details.">
+        </figure>
+        <div>
+          <p class="eyebrow">Beyond level clear</p>
+          <h2>Restoration makes progress visible.</h2>
+          <p class="section-intro">The game should not only say a player restored a place. It should let them see tiles fill, decorations appear, and premium effects change the mood of the garden.</p>
+          <div class="timeline-list">
+            <div>
+              <strong>1. Solve</strong>
+              <p>Complete a compact tap-to-age puzzle.</p>
+            </div>
+            <div>
+              <strong>2. Restore</strong>
+              <p>Use earned points to bring a scene tile back to life.</p>
+            </div>
+            <div>
+              <strong>3. Customize</strong>
+              <p>Equip garden themes, transformation FX, and founder decorations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="premium" class="section-block premium-band">
+      <div class="section-heading">
+        <p class="eyebrow">Premium cosmetics</p>
+        <h2>Monetization should look like added beauty, not pressure.</h2>
+        <p class="section-intro">PATINA’s best paid value is cosmetic: garden themes, transformation effects, restoration decorations, and seasonal packs that match the cozy identity.</p>
+      </div>
+
+      <div class="premium-grid">
+        <article class="premium-card golden-card">
+          <span>Theme</span>
+          <h3>Golden Conservatory</h3>
+          <p>Warm gold UI accents, richer garden atmosphere, and a restored scene that feels visibly premium.</p>
+        </article>
+        <article class="premium-card bloom-card">
+          <span>FX Pack</span>
+          <h3>Gold Leaf Bloom</h3>
+          <p>Leaf sparkles and bloom particles that make transformations feel collectible without changing puzzle power.</p>
+        </article>
+        <article class="premium-card founder-card">
+          <span>Founder Pack</span>
+          <h3>Moon Gate, Lanterns, Bench</h3>
+          <p>Decorations that appear in the restoration garden so the purchase has obvious visual value.</p>
+        </article>
+        <article class="premium-card seasonal-card">
+          <span>Seasonal</span>
+          <h3>Lantern Night</h3>
+          <p>A seasonal pack path for future updates before considering any battle pass.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-block trust-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="home.trustEyebrow">Player trust</p>
+        <h2 data-i18n="home.trustTitle">Privacy, purchases, and consent are documented before launch.</h2>
+      </div>
+      <div class="proof-list">
+        <p data-i18n="home.trustOne">PATINA uses Google AdMob for optional rewarded ads and limited interstitial ads, with Google UMP consent where required.</p>
+        <p data-i18n="home.trustTwo">Purchases are handled through the platform store. PATINA does not receive payment card details.</p>
+        <p data-i18n="home.trustThree">Progress is stored locally on the device unless a future online feature is clearly added and documented.</p>
+      </div>
+      <div class="link-row trust-actions">
+        <a class="button secondary" href="privacy/">Privacy policy</a>
+        <a class="button secondary" href="terms/">Terms of service</a>
+        <a class="button secondary" href="support/">Support</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p data-i18n="common.footer">PATINA is an independent mobile puzzle game by Gaborandi.</p>
+    <nav aria-label="Footer">
+      <a href="privacy/" data-i18n="common.privacy">Privacy</a>
+      <a href="terms/" data-i18n="common.terms">Terms</a>
+      <a href="support/" data-i18n="common.support">Support</a>
+    </nav>
   </footer>
-</main>
+
+  <script src="site.js"></script>
 </body>
 </html>
