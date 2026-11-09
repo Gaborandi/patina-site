@@ -10,11 +10,11 @@ const PATINA_I18N = {
       terms: 'Terms',
       support: 'Support',
       language: 'Language',
-      footer: 'PATINA is an independent mobile puzzle game by Gaborandi.',
+      footer: 'LAPSEWOOD is an independent mobile puzzle game by Gaborandi.',
       translationNote: 'This website can translate navigation and summaries for convenience. The full legal policy is provided in English, and the English version controls.',
     },
     home: {
-      title: 'PATINA - Paint Time. Solve Worlds.',
+      title: 'LAPSEWOOD - Paint Time. Solve Worlds.',
       eyebrow: 'Time-painting puzzle game',
       tagline: 'Paint Time. Solve Worlds.',
       heroText: 'Tap objects to age them through time, chain transformations, and restore forgotten gardens, ruins, and living scenes.',
@@ -37,20 +37,20 @@ const PATINA_I18N = {
       featureThreeText: 'Ads are consent-aware, rewarded placements are optional, and interstitials are kept away from active puzzle play.',
       trustEyebrow: 'Player trust',
       trustTitle: 'Privacy, purchases, and consent choices.',
-      trustOne: 'PATINA uses Google AdMob for optional rewarded ads and limited interstitial ads, with Google UMP consent where required.',
-      trustTwo: 'The iOS purchase flow uses Apple’s store. Purchases are unavailable on Android. PATINA does not receive payment card details.',
+      trustOne: 'LAPSEWOOD uses Google AdMob for optional rewarded ads and limited interstitial ads, with Google UMP consent where required.',
+      trustTwo: 'The iOS purchase flow uses Apple’s store. Purchases are unavailable on Android. LAPSEWOOD does not receive payment card details.',
       trustThree: 'Progress and settings are stored locally on your device.',
     },
     legal: {
-      privacyDocumentTitle: 'Privacy Policy - PATINA',
-      termsDocumentTitle: 'Terms of Service - PATINA',
-      supportDocumentTitle: 'Support - PATINA',
+      privacyDocumentTitle: 'Privacy Policy - LAPSEWOOD',
+      termsDocumentTitle: 'Terms of Service - LAPSEWOOD',
+      supportDocumentTitle: 'Support - LAPSEWOOD',
       privacyTitle: 'Privacy Policy',
       termsTitle: 'Terms of Service',
       supportTitle: 'Support',
     },
     support: {
-      intro: 'Need help with PATINA, purchases, ads, restore, or privacy choices? Email the support address below.',
+      intro: 'Need help with LAPSEWOOD, purchases, ads, restore, or privacy choices? Email the support address below.',
     },
   },
   ar: {
@@ -64,11 +64,11 @@ const PATINA_I18N = {
       terms: 'الشروط',
       support: 'الدعم',
       language: 'اللغة',
-      footer: 'PATINA لعبة ألغاز مستقلة للهواتف من Gaborandi.',
+      footer: 'LAPSEWOOD لعبة ألغاز مستقلة للهواتف من Gaborandi.',
       translationNote: 'يمكن لهذا الموقع ترجمة التنقل والملخصات للتسهيل. النص القانوني الكامل متاح بالإنجليزية، والنسخة الإنجليزية هي المعتمدة.',
     },
     home: {
-      title: 'PATINA - ارسم الزمن. حل العوالم.',
+      title: 'LAPSEWOOD - ارسم الزمن. حل العوالم.',
       eyebrow: 'لعبة ألغاز عن الزمن',
       tagline: 'ارسم الزمن. حل العوالم.',
       heroText: 'اضغط على الأشياء لتجعلها تتقدم عبر الزمن، اربط التحولات، واستعد حدائق وآثارا ومشاهد حية منسية.',
@@ -91,8 +91,8 @@ const PATINA_I18N = {
       featureThreeText: 'الإعلانات تراعي الموافقة، والمكافآت اختيارية، والفواصل لا تظهر أثناء اللعب النشط.',
       trustEyebrow: 'ثقة اللاعب',
       trustTitle: 'الخصوصية والمشتريات وخيارات الموافقة.',
-      trustOne: 'تستخدم PATINA Google AdMob للإعلانات الاختيارية والمحدودة، مع موافقة Google UMP حيث يلزم.',
-      trustTwo: 'تتم مشتريات iOS عبر متجر Apple. المشتريات غير متاحة على Android. لا تتلقى PATINA تفاصيل بطاقة الدفع.',
+      trustOne: 'تستخدم LAPSEWOOD Google AdMob للإعلانات الاختيارية والمحدودة، مع موافقة Google UMP حيث يلزم.',
+      trustTwo: 'تتم مشتريات iOS عبر متجر Apple. المشتريات غير متاحة على Android. لا تتلقى LAPSEWOOD تفاصيل بطاقة الدفع.',
       trustThree: 'يتم حفظ التقدم والإعدادات محليا على جهازك.',
     },
     legal: {
@@ -101,7 +101,7 @@ const PATINA_I18N = {
       supportTitle: 'الدعم',
     },
     support: {
-      intro: 'هل تحتاج مساعدة بخصوص PATINA أو المشتريات أو الإعلانات أو الاستعادة أو خيارات الخصوصية؟ راسل البريد أدناه.',
+      intro: 'هل تحتاج مساعدة بخصوص LAPSEWOOD أو المشتريات أو الإعلانات أو الاستعادة أو خيارات الخصوصية؟ راسل البريد أدناه.',
     },
   },
   es: {
@@ -115,11 +115,11 @@ const PATINA_I18N = {
       terms: 'Términos',
       support: 'Soporte',
       language: 'Idioma',
-      footer: 'PATINA es un juego móvil independiente de puzles de Gaborandi.',
+      footer: 'LAPSEWOOD es un juego móvil independiente de puzles de Gaborandi.',
       translationNote: 'Este sitio puede traducir la navegación y los resúmenes por comodidad. La política legal completa está en inglés y la versión en inglés prevalece.',
     },
     home: {
-      title: 'PATINA - Pinta el tiempo. Resuelve mundos.',
+      title: 'LAPSEWOOD - Pinta el tiempo. Resuelve mundos.',
       eyebrow: 'Juego de puzles de tiempo',
       tagline: 'Pinta el tiempo. Resuelve mundos.',
       heroText: 'Toca objetos para hacerlos avanzar en el tiempo, encadena transformaciones y restaura jardines, ruinas y escenas vivas olvidadas.',
@@ -142,8 +142,8 @@ const PATINA_I18N = {
       featureThreeText: 'Los anuncios respetan el consentimiento, las recompensas son opcionales y los intersticiales no aparecen durante el juego activo.',
       trustEyebrow: 'Confianza del jugador',
       trustTitle: 'Privacidad, compras y opciones de consentimiento.',
-      trustOne: 'PATINA usa Google AdMob para anuncios recompensados opcionales e intersticiales limitados, con Google UMP cuando corresponde.',
-      trustTwo: 'Las compras de iOS se procesan en la tienda de Apple. Las compras no están disponibles en Android. PATINA no recibe datos de tarjetas.',
+      trustOne: 'LAPSEWOOD usa Google AdMob para anuncios recompensados opcionales e intersticiales limitados, con Google UMP cuando corresponde.',
+      trustTwo: 'Las compras de iOS se procesan en la tienda de Apple. Las compras no están disponibles en Android. LAPSEWOOD no recibe datos de tarjetas.',
       trustThree: 'El progreso y los ajustes se guardan localmente en tu dispositivo.',
     },
     legal: {
@@ -152,7 +152,7 @@ const PATINA_I18N = {
       supportTitle: 'Soporte',
     },
     support: {
-      intro: '¿Necesitas ayuda con PATINA, compras, anuncios, restauración o privacidad? Escribe al correo de soporte.',
+      intro: '¿Necesitas ayuda con LAPSEWOOD, compras, anuncios, restauración o privacidad? Escribe al correo de soporte.',
     },
   },
   fr: {
@@ -166,11 +166,11 @@ const PATINA_I18N = {
       terms: 'Conditions',
       support: 'Assistance',
       language: 'Langue',
-      footer: 'PATINA est un jeu mobile indépendant de puzzle par Gaborandi.',
+      footer: 'LAPSEWOOD est un jeu mobile indépendant de puzzle par Gaborandi.',
       translationNote: 'Le site peut traduire la navigation et les résumés pour plus de confort. La politique juridique complète est fournie en anglais, et la version anglaise prévaut.',
     },
     home: {
-      title: 'PATINA - Peindre le temps. Résoudre les mondes.',
+      title: 'LAPSEWOOD - Peindre le temps. Résoudre les mondes.',
       eyebrow: 'Jeu de puzzle temporel',
       tagline: 'Peindre le temps. Résoudre les mondes.',
       heroText: 'Touchez des objets pour les faire évoluer dans le temps, enchaînez les transformations et restaurez jardins, ruines et scènes vivantes oubliés.',
@@ -193,8 +193,8 @@ const PATINA_I18N = {
       featureThreeText: 'Les annonces respectent le consentement, les récompenses sont facultatives et les interstitiels évitent le jeu actif.',
       trustEyebrow: 'Confiance du joueur',
       trustTitle: 'Confidentialité, achats et choix de consentement.',
-      trustOne: 'PATINA utilise Google AdMob pour les annonces récompensées facultatives et des interstitiels limités, avec Google UMP si nécessaire.',
-      trustTwo: 'Les achats sur iOS passent par la boutique Apple. Les achats ne sont pas disponibles sur Android. PATINA ne reçoit pas les informations de carte bancaire.',
+      trustOne: 'LAPSEWOOD utilise Google AdMob pour les annonces récompensées facultatives et des interstitiels limités, avec Google UMP si nécessaire.',
+      trustTwo: 'Les achats sur iOS passent par la boutique Apple. Les achats ne sont pas disponibles sur Android. LAPSEWOOD ne reçoit pas les informations de carte bancaire.',
       trustThree: 'La progression et les réglages sont enregistrés localement sur votre appareil.',
     },
     legal: {
@@ -203,7 +203,7 @@ const PATINA_I18N = {
       supportTitle: 'Assistance',
     },
     support: {
-      intro: 'Besoin d’aide avec PATINA, les achats, les annonces, la restauration ou la confidentialité ? Écrivez à l’adresse ci-dessous.',
+      intro: 'Besoin d’aide avec LAPSEWOOD, les achats, les annonces, la restauration ou la confidentialité ? Écrivez à l’adresse ci-dessous.',
     },
   },
   de: {
@@ -217,11 +217,11 @@ const PATINA_I18N = {
       terms: 'Bedingungen',
       support: 'Support',
       language: 'Sprache',
-      footer: 'PATINA ist ein unabhängiges Mobile-Puzzlespiel von Gaborandi.',
+      footer: 'LAPSEWOOD ist ein unabhängiges Mobile-Puzzlespiel von Gaborandi.',
       translationNote: 'Diese Website kann Navigation und Zusammenfassungen übersetzen. Die vollständige rechtliche Fassung ist auf Englisch; die englische Version ist maßgeblich.',
     },
     home: {
-      title: 'PATINA - Zeit malen. Welten lösen.',
+      title: 'LAPSEWOOD - Zeit malen. Welten lösen.',
       eyebrow: 'Zeit-Puzzlespiel',
       tagline: 'Zeit malen. Welten lösen.',
       heroText: 'Tippe Objekte an, lasse sie durch die Zeit altern, verknüpfe Transformationen und stelle vergessene Gärten, Ruinen und lebendige Szenen wieder her.',
@@ -244,8 +244,8 @@ const PATINA_I18N = {
       featureThreeText: 'Werbung respektiert Einwilligung, Belohnungen sind optional und Interstitials erscheinen nicht während aktiver Rätsel.',
       trustEyebrow: 'Spielervertrauen',
       trustTitle: 'Datenschutz, Käufe und Einwilligungsoptionen.',
-      trustOne: 'PATINA nutzt Google AdMob für optionale Rewarded Ads und begrenzte Interstitials, mit Google UMP wo erforderlich.',
-      trustTwo: 'Käufe auf iOS laufen über den Apple Store. Käufe sind auf Android nicht verfügbar. PATINA erhält keine Kartendaten.',
+      trustOne: 'LAPSEWOOD nutzt Google AdMob für optionale Rewarded Ads und begrenzte Interstitials, mit Google UMP wo erforderlich.',
+      trustTwo: 'Käufe auf iOS laufen über den Apple Store. Käufe sind auf Android nicht verfügbar. LAPSEWOOD erhält keine Kartendaten.',
       trustThree: 'Fortschritt und Einstellungen werden lokal auf deinem Gerät gespeichert.',
     },
     legal: {
@@ -254,18 +254,18 @@ const PATINA_I18N = {
       supportTitle: 'Support',
     },
     support: {
-      intro: 'Brauchst du Hilfe mit PATINA, Käufen, Werbung, Wiederherstellung oder Datenschutz? Schreibe an die Support-Adresse unten.',
+      intro: 'Brauchst du Hilfe mit LAPSEWOOD, Käufen, Werbung, Wiederherstellung oder Datenschutz? Schreibe an die Support-Adresse unten.',
     },
   },
 };
 
 for (const lang of ['pt', 'it', 'ja', 'ko', 'zh']) {
   const labels = {
-    pt: ['Idioma', 'Privacidade', 'Termos', 'Suporte', 'PATINA é um jogo móvel independente de puzzle da Gaborandi.'],
-    it: ['Lingua', 'Privacy', 'Termini', 'Supporto', 'PATINA è un puzzle game mobile indipendente di Gaborandi.'],
-    ja: ['言語', 'プライバシー', '規約', 'サポート', 'PATINA は Gaborandi による独立系モバイルパズルゲームです。'],
+    pt: ['Idioma', 'Privacidade', 'Termos', 'Suporte', 'LAPSEWOOD é um jogo móvel independente de puzzle da Gaborandi.'],
+    it: ['Lingua', 'Privacy', 'Termini', 'Supporto', 'LAPSEWOOD è un puzzle game mobile indipendente di Gaborandi.'],
+    ja: ['言語', 'プライバシー', '規約', 'サポート', 'LAPSEWOOD は Gaborandi による独立系モバイルパズルゲームです。'],
     ko: ['언어', '개인정보', '약관', '지원', 'PATINA는 Gaborandi의 독립 모바일 퍼즐 게임입니다.'],
-    zh: ['语言', '隐私', '条款', '支持', 'PATINA 是 Gaborandi 制作的独立手机益智游戏。'],
+    zh: ['语言', '隐私', '条款', '支持', 'LAPSEWOOD 是 Gaborandi 制作的独立手机益智游戏。'],
   }[lang];
 
   PATINA_I18N[lang] = {
