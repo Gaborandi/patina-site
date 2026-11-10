@@ -14,7 +14,8 @@ const PATINA_I18N = {
       translationNote: 'This website can translate navigation and summaries for convenience. The full legal policy is provided in English, and the English version controls.',
     },
     home: {
-      title: 'LAPSEWOOD - Paint Time. Solve Worlds.',
+      availability: "Coming soon to iPhone and iPad. Free to download, with optional in-app purchases.",
+      title: 'Lapsewood: Cozy Puzzle Game — Relaxing Nature Logic',
       eyebrow: 'Time-painting puzzle game',
       tagline: 'Paint Time. Solve Worlds.',
       heroText: 'Tap objects to age them through time, chain transformations, and restore forgotten gardens, ruins, and living scenes.',
@@ -68,6 +69,7 @@ const PATINA_I18N = {
       translationNote: 'يمكن لهذا الموقع ترجمة التنقل والملخصات للتسهيل. النص القانوني الكامل متاح بالإنجليزية، والنسخة الإنجليزية هي المعتمدة.',
     },
     home: {
+      availability: "قريبًا على iPhone وiPad. تنزيل مجاني مع مشتريات اختيارية داخل التطبيق.",
       title: 'LAPSEWOOD - ارسم الزمن. حل العوالم.',
       eyebrow: 'لعبة ألغاز عن الزمن',
       tagline: 'ارسم الزمن. حل العوالم.',
@@ -119,6 +121,7 @@ const PATINA_I18N = {
       translationNote: 'Este sitio puede traducir la navegación y los resúmenes por comodidad. La política legal completa está en inglés y la versión en inglés prevalece.',
     },
     home: {
+      availability: "Próximamente en iPhone y iPad. Descarga gratuita con compras opcionales dentro de la app.",
       title: 'LAPSEWOOD - Pinta el tiempo. Resuelve mundos.',
       eyebrow: 'Juego de puzles de tiempo',
       tagline: 'Pinta el tiempo. Resuelve mundos.',
@@ -170,6 +173,7 @@ const PATINA_I18N = {
       translationNote: 'Le site peut traduire la navigation et les résumés pour plus de confort. La politique juridique complète est fournie en anglais, et la version anglaise prévaut.',
     },
     home: {
+      availability: "Bientôt sur iPhone et iPad. Téléchargement gratuit avec achats intégrés facultatifs.",
       title: 'LAPSEWOOD - Peindre le temps. Résoudre les mondes.',
       eyebrow: 'Jeu de puzzle temporel',
       tagline: 'Peindre le temps. Résoudre les mondes.',
@@ -221,6 +225,7 @@ const PATINA_I18N = {
       translationNote: 'Diese Website kann Navigation und Zusammenfassungen übersetzen. Die vollständige rechtliche Fassung ist auf Englisch; die englische Version ist maßgeblich.',
     },
     home: {
+      availability: "Bald für iPhone und iPad. Kostenloser Download mit optionalen In-App-Käufen.",
       title: 'LAPSEWOOD - Zeit malen. Welten lösen.',
       eyebrow: 'Zeit-Puzzlespiel',
       tagline: 'Zeit malen. Welten lösen.',
@@ -264,12 +269,13 @@ for (const lang of ['pt', 'it', 'ja', 'ko', 'zh']) {
     pt: ['Idioma', 'Privacidade', 'Termos', 'Suporte', 'LAPSEWOOD é um jogo móvel independente de puzzle da Gaborandi.'],
     it: ['Lingua', 'Privacy', 'Termini', 'Supporto', 'LAPSEWOOD è un puzzle game mobile indipendente di Gaborandi.'],
     ja: ['言語', 'プライバシー', '規約', 'サポート', 'LAPSEWOOD は Gaborandi による独立系モバイルパズルゲームです。'],
-    ko: ['언어', '개인정보', '약관', '지원', 'PATINA는 Gaborandi의 독립 모바일 퍼즐 게임입니다.'],
+    ko: ['언어', '개인정보', '약관', '지원', 'LAPSEWOOD는 Gaborandi의 독립 모바일 퍼즐 게임입니다.'],
     zh: ['语言', '隐私', '条款', '支持', 'LAPSEWOOD 是 Gaborandi 制作的独立手机益智游戏。'],
   }[lang];
 
   PATINA_I18N[lang] = {
     ...PATINA_I18N.en,
+    home: { ...PATINA_I18N.en.home, availability: {"pt": "Em breve para iPhone e iPad. Download gratuito com compras opcionais no app.", "it": "Presto su iPhone e iPad. Download gratuito con acquisti in-app facoltativi.", "ja": "iPhoneとiPadに近日登場。無料でダウンロードでき、任意のアプリ内購入があります。", "ko": "iPhone과 iPad에서 곧 만나보세요. 무료 다운로드와 선택적 앱 내 구입을 제공합니다.", "zh": "即将登陆 iPhone 和 iPad。免费下载，提供可选的 App 内购买。"}[lang] },
     common: {
       ...PATINA_I18N.en.common,
       language: labels[0],
