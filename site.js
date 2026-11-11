@@ -14,7 +14,8 @@ const PATINA_I18N = {
       translationNote: 'This website can translate navigation and summaries for convenience. The full legal policy is provided in English, and the English version controls.',
     },
     home: {
-      availability: "Coming soon to iPhone and iPad. Free to download, with optional in-app purchases.",
+      availability: "Available for iPhone and iPad. Free with ads and optional in-app purchases. Availability may vary by region.",
+      downloadCta: "Download on the App Store",
       title: 'Lapsewood: Cozy Puzzle Game — Relaxing Nature Logic',
       eyebrow: 'Time-painting puzzle game',
       tagline: 'Paint Time. Solve Worlds.',
@@ -69,7 +70,8 @@ const PATINA_I18N = {
       translationNote: 'يمكن لهذا الموقع ترجمة التنقل والملخصات للتسهيل. النص القانوني الكامل متاح بالإنجليزية، والنسخة الإنجليزية هي المعتمدة.',
     },
     home: {
-      availability: "قريبًا على iPhone وiPad. تنزيل مجاني مع مشتريات اختيارية داخل التطبيق.",
+      availability: "متاحة على iPhone وiPad. مجانية مع إعلانات ومشتريات اختيارية داخل التطبيق. قد يختلف التوفر حسب المنطقة.",
+      downloadCta: "تنزيل من App Store",
       title: 'LAPSEWOOD - ارسم الزمن. حل العوالم.',
       eyebrow: 'لعبة ألغاز عن الزمن',
       tagline: 'ارسم الزمن. حل العوالم.',
@@ -121,7 +123,8 @@ const PATINA_I18N = {
       translationNote: 'Este sitio puede traducir la navegación y los resúmenes por comodidad. La política legal completa está en inglés y la versión en inglés prevalece.',
     },
     home: {
-      availability: "Próximamente en iPhone y iPad. Descarga gratuita con compras opcionales dentro de la app.",
+      availability: "Disponible para iPhone y iPad. Gratis con anuncios y compras opcionales dentro de la app. La disponibilidad puede variar según la región.",
+      downloadCta: "Descargar en el App Store",
       title: 'LAPSEWOOD - Pinta el tiempo. Resuelve mundos.',
       eyebrow: 'Juego de puzles de tiempo',
       tagline: 'Pinta el tiempo. Resuelve mundos.',
@@ -173,7 +176,8 @@ const PATINA_I18N = {
       translationNote: 'Le site peut traduire la navigation et les résumés pour plus de confort. La politique juridique complète est fournie en anglais, et la version anglaise prévaut.',
     },
     home: {
-      availability: "Bientôt sur iPhone et iPad. Téléchargement gratuit avec achats intégrés facultatifs.",
+      availability: "Disponible sur iPhone et iPad. Gratuit avec publicités et achats intégrés facultatifs. La disponibilité peut varier selon la région.",
+      downloadCta: "Télécharger sur l’App Store",
       title: 'LAPSEWOOD - Peindre le temps. Résoudre les mondes.',
       eyebrow: 'Jeu de puzzle temporel',
       tagline: 'Peindre le temps. Résoudre les mondes.',
@@ -225,7 +229,8 @@ const PATINA_I18N = {
       translationNote: 'Diese Website kann Navigation und Zusammenfassungen übersetzen. Die vollständige rechtliche Fassung ist auf Englisch; die englische Version ist maßgeblich.',
     },
     home: {
-      availability: "Bald für iPhone und iPad. Kostenloser Download mit optionalen In-App-Käufen.",
+      availability: "Für iPhone und iPad erhältlich. Kostenlos mit Werbung und optionalen In-App-Käufen. Die Verfügbarkeit kann je nach Region variieren.",
+      downloadCta: "Im App Store laden",
       title: 'LAPSEWOOD - Zeit malen. Welten lösen.',
       eyebrow: 'Zeit-Puzzlespiel',
       tagline: 'Zeit malen. Welten lösen.',
@@ -275,7 +280,7 @@ for (const lang of ['pt', 'it', 'ja', 'ko', 'zh']) {
 
   PATINA_I18N[lang] = {
     ...PATINA_I18N.en,
-    home: { ...PATINA_I18N.en.home, availability: {"pt": "Em breve para iPhone e iPad. Download gratuito com compras opcionais no app.", "it": "Presto su iPhone e iPad. Download gratuito con acquisti in-app facoltativi.", "ja": "iPhoneとiPadに近日登場。無料でダウンロードでき、任意のアプリ内購入があります。", "ko": "iPhone과 iPad에서 곧 만나보세요. 무료 다운로드와 선택적 앱 내 구입을 제공합니다.", "zh": "即将登陆 iPhone 和 iPad。免费下载，提供可选的 App 内购买。"}[lang] },
+    home: { ...PATINA_I18N.en.home, ...{"pt":{"availability":"Disponível para iPhone e iPad. Grátis com anúncios e compras opcionais no app. A disponibilidade pode variar por região.","downloadCta":"Baixar na App Store"},"it":{"availability":"Disponibile per iPhone e iPad. Gratis con pubblicità e acquisti in-app facoltativi. La disponibilità può variare in base alla regione.","downloadCta":"Scarica su App Store"},"ja":{"availability":"iPhoneとiPadで配信中。広告と任意のアプリ内購入がある無料ゲームです。配信状況は地域によって異なります。","downloadCta":"App Storeでダウンロード"},"ko":{"availability":"iPhone과 iPad에서 이용할 수 있습니다. 광고와 선택적 앱 내 구입이 있는 무료 게임입니다. 이용 가능 여부는 지역에 따라 다를 수 있습니다.","downloadCta":"App Store에서 다운로드"},"zh":{"availability":"现已登陆 iPhone 和 iPad。免费游戏，含广告和可选的 App 内购买。供应情况可能因地区而异。","downloadCta":"在 App Store 下载"}}[lang] },
     common: {
       ...PATINA_I18N.en.common,
       language: labels[0],
